@@ -1,7 +1,7 @@
 {
   "name": "rest_api_demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Back end connection to mongodb",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/server.js"
@@ -18,10 +18,12 @@
   },
   "homepage": "https://github.com/colbyrob1/rest_api_demo#readme",
   "dependencies": {
-    "cause": "^0.10.4",
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
     "mongoose": "^5.11.14"
   },
   "devDependencies": {
